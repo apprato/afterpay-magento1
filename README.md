@@ -1,3 +1,7 @@
+<h2> Afterpay Double Stock Reduction Fix</h2>
+<p>This is a fork off the official After mangeto 1.9.x extension which appears to reduce stock inccorrectly.  If you are using limited stock on products on sale for example this can cause issues.</p>
+<p>For example if you have 2 shirts, you buy 2 shirts with AfterPay, AfterPay will deduct 4 shirts and redirect you to a blank screen.</p>
+<p>This patch resolves this issue by deducting the right amount of stock and if there is an issue with stock with say a race condition it is handled and redirects you to the checkout page.  If there is a more elegant resolution to this issue, please add a pull request.</p>
 <h2> 1.1 New Afterpay Installation </h2>
 <p> This section outlines the steps to install the Afterpay plugin on your Magento instance for the first time. </p>
 

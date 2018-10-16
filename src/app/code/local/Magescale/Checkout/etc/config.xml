@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Magescale_Checkout>
+            <version>1.0</version>
+        </Magescale_Checkout>
+    </modules>
+    <global>
+        <models>
+            <Magescale_Checkout>Magescale_Checkout_Model</Magescale_Checkout>
+            <checkout>
+                <rewrite>
+                    <type_onepage>Magescale_Checkout_Model_Type_Onepage</type_onepage>
+                </rewrite>
+            </checkout>
+        </models>
+    </global>
+</config>
